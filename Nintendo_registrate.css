@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+}
+
+.encabezado {
+    height: 70px;
+    border-bottom:2px solid rgb(266, 266, 266);
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    background-color: red;
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a {
+    margin-right: 30px;
+    margin-left: 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: rgb(92, 25, 25);
+}
+
+a:active {
+    color: blue;
+}
+
+.logo {
+    width: 270px;
+    margin-left: 15px;
+}
+
+.medio {
+    display: flex;
+    justify-content: center;
+}
+
+.nintendo_switch {
+    margin-top: 15px;
+    width: 200px;
+}
+
+.registro {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.pie_de_pagina {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    height: 70px;
+    border-bottom: 2px rgb(266, 266, 266);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.imagen_pie {
+    width: 190px;
+}
+
+.container2 {
+    background-color: red;
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.container3 {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    max-width: 1600px;
+    justify-content: space-between;
+    width: 30px;
+    height: 30px;
+}
+
+.imagen_FB {
+    width: 25px;
+    height: 25px;
+    margin: 10px;
+}
+
+.redes {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.imagen_redes {
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    margin: 5px;
+}
